@@ -37,13 +37,22 @@ export default function Privacy() {
             <Link to="/" className="text-sm text-gray-600 hover:text-gray-900">
               Home
             </Link>
-            <a href="/#about" className="text-sm text-gray-600 hover:text-gray-900">
+            <a
+              href="/#about"
+              className="text-sm text-gray-600 hover:text-gray-900"
+            >
               About
             </a>
-            <a href="/#services" className="text-sm text-gray-600 hover:text-gray-900">
+            <a
+              href="/#services"
+              className="text-sm text-gray-600 hover:text-gray-900"
+            >
               Services
             </a>
-            <a href="/#contact" className="text-sm text-gray-600 hover:text-gray-900">
+            <a
+              href="/#contact"
+              className="text-sm text-gray-600 hover:text-gray-900"
+            >
               Contact
             </a>
           </nav>
@@ -62,9 +71,7 @@ export default function Privacy() {
           <h1 className="text-4xl font-bold text-gray-900 md:text-5xl mb-2">
             Privacy Policy
           </h1>
-          <p className="text-sm text-gray-600">
-            Last updated: February 2024
-          </p>
+          <p className="text-sm text-gray-600">Last updated: February 2024</p>
         </div>
 
         <div className="prose prose-gray max-w-none space-y-8 text-gray-700">
@@ -73,10 +80,11 @@ export default function Privacy() {
               1. Introduction
             </h2>
             <p>
-              Sam Digital Partners ("Company," "we," "our," or "us") is committed to protecting
-              your privacy. This Privacy Policy explains how we collect, use, disclose, and
-              safeguard your information when you visit our website at samdigitalpartners.com
-              and engage with our services.
+              Sam Digital Partners ("Company," "we," "our," or "us") is
+              committed to protecting your privacy. This Privacy Policy explains
+              how we collect, use, disclose, and safeguard your information when
+              you visit our website at samdigitalpartners.com and engage with
+              our services.
             </p>
           </section>
 
@@ -84,22 +92,21 @@ export default function Privacy() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               2. Information We Collect
             </h2>
-            <p>
-              We collect information in the following ways:
-            </p>
+            <p>We collect information in the following ways:</p>
             <ul className="list-disc pl-6 space-y-2 mt-4">
               <li>
-                <strong>Contact Form Information:</strong> When you submit our contact form,
-                we collect your name, email address, company name, and message content.
+                <strong>Contact Form Information:</strong> When you submit our
+                contact form, we collect your name, email address, company name,
+                and message content.
               </li>
               <li>
-                <strong>Website Usage Data:</strong> We may collect information about your
-                device, browser type, IP address, and pages visited through standard web
-                analytics tools.
+                <strong>Website Usage Data:</strong> We may collect information
+                about your device, browser type, IP address, and pages visited
+                through standard web analytics tools.
               </li>
               <li>
-                <strong>Communication Data:</strong> If you email us directly, we retain
-                your correspondence and contact details.
+                <strong>Communication Data:</strong> If you email us directly,
+                we retain your correspondence and contact details.
               </li>
             </ul>
           </section>
@@ -108,16 +115,19 @@ export default function Privacy() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               3. How We Use Your Information
             </h2>
-            <p>
-              We use the information we collect for the following purposes:
-            </p>
+            <p>We use the information we collect for the following purposes:</p>
             <ul className="list-disc pl-6 space-y-2 mt-4">
-              <li>To respond to your partnership inquiries and communications</li>
+              <li>
+                To respond to your partnership inquiries and communications
+              </li>
               <li>To provide our performance marketing services</li>
               <li>To improve our website and user experience</li>
               <li>To comply with legal obligations</li>
               <li>To analyze website performance and user behavior</li>
-              <li>To send occasional updates about our services (with your consent)</li>
+              <li>
+                To send occasional updates about our services (with your
+                consent)
+              </li>
             </ul>
           </section>
 
@@ -126,21 +136,24 @@ export default function Privacy() {
               4. Information Sharing and Disclosure
             </h2>
             <p>
-              We do not sell, trade, or rent your personal information to third parties. We may
-              share information only in the following circumstances:
+              We do not sell, trade, or rent your personal information to third
+              parties. We may share information only in the following
+              circumstances:
             </p>
             <ul className="list-disc pl-6 space-y-2 mt-4">
               <li>
-                <strong>Service Providers:</strong> We may share information with trusted
-                partners who assist us in operating our website and conducting our business.
+                <strong>Service Providers:</strong> We may share information
+                with trusted partners who assist us in operating our website and
+                conducting our business.
               </li>
               <li>
-                <strong>Legal Requirements:</strong> We may disclose information if required
-                by law or in response to legal requests.
+                <strong>Legal Requirements:</strong> We may disclose information
+                if required by law or in response to legal requests.
               </li>
               <li>
-                <strong>Business Transfer:</strong> In the event of a merger, acquisition,
-                or sale of assets, your information may be transferred.
+                <strong>Business Transfer:</strong> In the event of a merger,
+                acquisition, or sale of assets, your information may be
+                transferred.
               </li>
             </ul>
           </section>
@@ -150,10 +163,11 @@ export default function Privacy() {
               5. Data Security
             </h2>
             <p>
-              We implement appropriate technical and organizational measures to protect your
-              personal information against unauthorized access, alteration, disclosure, or
-              destruction. However, no method of transmission over the Internet is completely
-              secure. While we strive to use commercially acceptable means to protect your
+              We implement appropriate technical and organizational measures to
+              protect your personal information against unauthorized access,
+              alteration, disclosure, or destruction. However, no method of
+              transmission over the Internet is completely secure. While we
+              strive to use commercially acceptable means to protect your
               personal information, we cannot guarantee its absolute security.
             </p>
           </section>
@@ -163,10 +177,11 @@ export default function Privacy() {
               6. Cookies and Tracking Technologies
             </h2>
             <p>
-              We may use cookies and similar tracking technologies to enhance your browsing
-              experience. These tools help us understand how you interact with our website and
-              improve our services. You can control cookie settings through your browser, though
-              some website features may not function properly without them.
+              We may use cookies and similar tracking technologies to enhance
+              your browsing experience. These tools help us understand how you
+              interact with our website and improve our services. You can
+              control cookie settings through your browser, though some website
+              features may not function properly without them.
             </p>
           </section>
 
@@ -175,10 +190,11 @@ export default function Privacy() {
               7. Data Retention
             </h2>
             <p>
-              We retain your personal information for as long as necessary to fulfill the
-              purposes outlined in this Privacy Policy, unless a longer retention period is
-              required or permitted by law. For partnership inquiries, we retain contact
-              information for up to two years.
+              We retain your personal information for as long as necessary to
+              fulfill the purposes outlined in this Privacy Policy, unless a
+              longer retention period is required or permitted by law. For
+              partnership inquiries, we retain contact information for up to two
+              years.
             </p>
           </section>
 
@@ -191,24 +207,25 @@ export default function Privacy() {
             </p>
             <ul className="list-disc pl-6 space-y-2 mt-4">
               <li>
-                <strong>Right to Access:</strong> You can request a copy of the personal
-                information we hold about you.
+                <strong>Right to Access:</strong> You can request a copy of the
+                personal information we hold about you.
               </li>
               <li>
-                <strong>Right to Correction:</strong> You can request that we correct
-                inaccurate information.
+                <strong>Right to Correction:</strong> You can request that we
+                correct inaccurate information.
               </li>
               <li>
-                <strong>Right to Deletion:</strong> You can request deletion of your personal
-                information, subject to legal limitations.
+                <strong>Right to Deletion:</strong> You can request deletion of
+                your personal information, subject to legal limitations.
               </li>
               <li>
-                <strong>Right to Opt-Out:</strong> You can opt out of receiving marketing
-                communications from us.
+                <strong>Right to Opt-Out:</strong> You can opt out of receiving
+                marketing communications from us.
               </li>
             </ul>
             <p className="mt-4">
-              To exercise these rights, please contact us at partnerships@samdigitalpartners.com.
+              To exercise these rights, please contact us at
+              partnerships@samdigitalpartners.com.
             </p>
           </section>
 
@@ -217,10 +234,11 @@ export default function Privacy() {
               9. GDPR Compliance (EU Residents)
             </h2>
             <p>
-              If you are located in the European Union, we process your personal information
-              in accordance with GDPR. We have a lawful basis for processing your information,
-              including your consent, our legitimate business interests, or contractual necessity.
-              You have the right to lodge a complaint with your supervisory authority.
+              If you are located in the European Union, we process your personal
+              information in accordance with GDPR. We have a lawful basis for
+              processing your information, including your consent, our
+              legitimate business interests, or contractual necessity. You have
+              the right to lodge a complaint with your supervisory authority.
             </p>
           </section>
 
@@ -229,9 +247,10 @@ export default function Privacy() {
               10. Third-Party Links
             </h2>
             <p>
-              Our website may contain links to third-party websites. We are not responsible
-              for the privacy practices of these external sites. We encourage you to review
-              their privacy policies before providing any personal information.
+              Our website may contain links to third-party websites. We are not
+              responsible for the privacy practices of these external sites. We
+              encourage you to review their privacy policies before providing
+              any personal information.
             </p>
           </section>
 
@@ -240,9 +259,10 @@ export default function Privacy() {
               11. Children's Privacy
             </h2>
             <p>
-              Our services are not intended for children under the age of 13. We do not
-              knowingly collect personal information from children under 13. If we become aware
-              that we have collected such information, we will take steps to delete it promptly.
+              Our services are not intended for children under the age of 13. We
+              do not knowingly collect personal information from children under
+              13. If we become aware that we have collected such information, we
+              will take steps to delete it promptly.
             </p>
           </section>
 
@@ -251,10 +271,11 @@ export default function Privacy() {
               12. International Data Transfers
             </h2>
             <p>
-              Your information may be transferred to, stored in, and processed in countries
-              other than your country of residence. These countries may have data protection
-              laws that differ from your country of origin. By providing your information,
-              you consent to such transfers.
+              Your information may be transferred to, stored in, and processed
+              in countries other than your country of residence. These countries
+              may have data protection laws that differ from your country of
+              origin. By providing your information, you consent to such
+              transfers.
             </p>
           </section>
 
@@ -263,10 +284,11 @@ export default function Privacy() {
               13. Changes to This Privacy Policy
             </h2>
             <p>
-              We may update this Privacy Policy from time to time. We will notify you of any
-              changes by posting the new Privacy Policy on this page and updating the "Last
-              updated" date. Your continued use of our website constitutes your acceptance of
-              the updated Privacy Policy.
+              We may update this Privacy Policy from time to time. We will
+              notify you of any changes by posting the new Privacy Policy on
+              this page and updating the "Last updated" date. Your continued use
+              of our website constitutes your acceptance of the updated Privacy
+              Policy.
             </p>
           </section>
 
@@ -275,8 +297,8 @@ export default function Privacy() {
               14. Contact Us
             </h2>
             <p>
-              If you have questions about this Privacy Policy or our privacy practices, please
-              contact us at:
+              If you have questions about this Privacy Policy or our privacy
+              practices, please contact us at:
             </p>
             <div className="mt-4 space-y-2">
               <p>
@@ -291,18 +313,13 @@ export default function Privacy() {
                   partnerships@samdigitalpartners.com
                 </a>
               </p>
-              <p>
-                We will respond to your inquiry within 30 business days.
-              </p>
+              <p>We will respond to your inquiry within 30 business days.</p>
             </div>
           </section>
         </div>
 
         <div className="mt-16 border-t border-gray-100 pt-8">
-          <Link
-            to="/"
-            className="text-primary hover:underline font-medium"
-          >
+          <Link to="/" className="text-primary hover:underline font-medium">
             ← Back to Home
           </Link>
         </div>

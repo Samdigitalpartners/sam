@@ -13,7 +13,7 @@ export default function Index() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleFormChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -81,13 +81,7 @@ export default function Index() {
     },
   ];
 
-  const brands = [
-    "Shopify",
-    "Fiverr",
-    "GoDaddy",
-    "Emirates",
-    "Unbounce",
-  ];
+  const brands = ["Shopify", "Fiverr", "GoDaddy", "Emirates", "Unbounce"];
 
   const reasons = [
     "Independent and accountable operations",
@@ -137,16 +131,28 @@ export default function Index() {
             </div>
           </div>
           <nav className="hidden gap-8 md:flex">
-            <a href="#about" className="text-sm text-gray-600 hover:text-gray-900">
+            <a
+              href="#about"
+              className="text-sm text-gray-600 hover:text-gray-900"
+            >
               About
             </a>
-            <a href="#services" className="text-sm text-gray-600 hover:text-gray-900">
+            <a
+              href="#services"
+              className="text-sm text-gray-600 hover:text-gray-900"
+            >
               Services
             </a>
-            <a href="#contact" className="text-sm text-gray-600 hover:text-gray-900">
+            <a
+              href="#contact"
+              className="text-sm text-gray-600 hover:text-gray-900"
+            >
               Contact
             </a>
-            <Link to="/privacy" className="text-sm text-gray-600 hover:text-gray-900">
+            <Link
+              to="/privacy"
+              className="text-sm text-gray-600 hover:text-gray-900"
+            >
               Privacy
             </Link>
           </nav>
@@ -160,8 +166,9 @@ export default function Index() {
             Performance-Driven Media Buying & Partner Marketing
           </h1>
           <p className="mb-8 text-lg text-gray-600 md:text-xl">
-            Sam Digital Partners is an independent performance marketing partner specializing
-            in DSP-based traffic, partnered publisher sites, and scalable EU-focused campaigns.
+            Sam Digital Partners is an independent performance marketing partner
+            specializing in DSP-based traffic, partnered publisher sites, and
+            scalable EU-focused campaigns.
           </p>
           <a
             href="#contact"
@@ -189,20 +196,25 @@ export default function Index() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="border-b border-gray-100 px-6 py-16 md:py-24">
+      <section
+        id="about"
+        className="border-b border-gray-100 px-6 py-16 md:py-24"
+      >
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">
             About Us
           </h2>
           <div className="space-y-4 text-gray-600">
             <p className="text-lg leading-relaxed">
-              Sam Digital Partners is an independent digital performance marketing company
-              led by an experienced media buyer with over 7 years of hands-on industry experience.
+              Sam Digital Partners is an independent digital performance
+              marketing company led by an experienced media buyer with over 7
+              years of hands-on industry experience.
             </p>
             <p className="text-lg leading-relaxed">
-              We help global brands acquire high-quality users through compliant, data-driven
-              promotion strategies across DSP inventory and partnered content websites. Our focus
-              is on long-term value creation, brand safety, and measurable performance.
+              We help global brands acquire high-quality users through
+              compliant, data-driven promotion strategies across DSP inventory
+              and partnered content websites. Our focus is on long-term value
+              creation, brand safety, and measurable performance.
             </p>
           </div>
 
@@ -249,7 +261,10 @@ export default function Index() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="border-b border-gray-100 px-6 py-16 md:py-24">
+      <section
+        id="services"
+        className="border-b border-gray-100 px-6 py-16 md:py-24"
+      >
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-12 text-3xl font-bold text-gray-900 md:text-4xl">
             Our Services
@@ -278,7 +293,8 @@ export default function Index() {
               Trusted by Leading Global Brands
             </h2>
             <p className="text-gray-600">
-              We have experience working with and promoting globally recognized brands
+              We have experience working with and promoting globally recognized
+              brands
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-5">
@@ -320,8 +336,8 @@ export default function Index() {
             Compliance & Transparency
           </h2>
           <p className="mb-8 text-gray-600">
-            We operate with the highest standards of integrity and compliance to ensure
-            advertiser trust and network partnerships.
+            We operate with the highest standards of integrity and compliance to
+            ensure advertiser trust and network partnerships.
           </p>
           <div className="grid gap-6 md:grid-cols-2">
             {compliancePoints.map((point, index) => (
@@ -335,13 +351,17 @@ export default function Index() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="border-b border-gray-100 px-6 py-16 md:py-24">
+      <section
+        id="contact"
+        className="border-b border-gray-100 px-6 py-16 md:py-24"
+      >
         <div className="mx-auto max-w-2xl">
           <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">
             Get in Touch
           </h2>
           <p className="mb-8 text-gray-600">
-            Ready to discuss partnership opportunities? We'd love to hear from you.
+            Ready to discuss partnership opportunities? We'd love to hear from
+            you.
           </p>
 
           <div className="mb-12 flex items-center gap-3 text-lg text-gray-900">
