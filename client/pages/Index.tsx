@@ -146,6 +146,9 @@ export default function Index() {
             <a href="#contact" className="text-sm text-gray-600 hover:text-gray-900">
               Contact
             </a>
+            <Link to="/privacy" className="text-sm text-gray-600 hover:text-gray-900">
+              Privacy
+            </Link>
           </nav>
         </div>
       </header>
