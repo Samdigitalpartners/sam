@@ -1,5 +1,6 @@
 import { Mail, CheckCircle2, TrendingUp } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Index() {
   const [formData, setFormData] = useState({
