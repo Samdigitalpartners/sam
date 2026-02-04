@@ -457,6 +457,14 @@ export default function Index() {
           </div>
           <div className="border-t border-gray-200 pt-8 text-center text-sm text-gray-600">
             <p>© 2024 Sam Digital Partners. All rights reserved.</p>
+            <div className="mt-4 flex justify-center gap-6">
+              <Link to="/" className="hover:text-gray-900">
+                Home
+              </Link>
+              <Link to="/privacy" className="hover:text-gray-900">
+                Privacy Policy
+              </Link>
+            </div>
           </div>
         </div>
       </footer>
